@@ -1,0 +1,23 @@
+height = input
+width = input
+border = "*" * width
+
+if height is 1
+  if width is 1
+    print "*"
+  else:
+    dont print borders
+    print from * for loop
+    break
+
+elif width is 1
+  print "*" for loop
+  break
+
+elif height is 2
+  only print borders
+
+else
+  print border
+  formula
+  border
