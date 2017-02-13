@@ -1,15 +1,18 @@
-numbers = raw_input("Give me some numbers! I'll find the lowest!")
-currentLowest = 9
-lowest = (currentLowest * 0) + currentLowest
+numbers = [1, 2, 3, 3, 2, 5, 2, 3, 1, 3, 2]
+lowest = 0
 
-for x in range(len(numbers)):
-    if numbers[x: + 1] == 0:
-        print 0
-    else:
-        for y in range(len(numbers)):
-            if numbers[x: x + 1] < numbers[x + 1: x + 2]:
-                currentLowest = numbers[x: x + 1]
-                lowest = currentLowest
-                if currentLowest < lowest:
-                    lowest = currentLowest
-print lowest
+
+#for i in range(len(numbers)):
+#    for j in range(len(numbers)):
+#        if numbers[i] < numbers[j]:
+#            lowest = numbers[i]
+#print lowest
+
+
+a = [1, 2, 3, 2]
+minimum = a[0]
+
+for number in a:
+    if minimum > number:
+       minimum = number
+print minimum
